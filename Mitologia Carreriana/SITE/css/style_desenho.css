@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.header{
+    margin: 0;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#active{
+    color: white;
+    z-index: 0;
+    cursor: pointer;
+    text-shadow: 3px 3px 5px black; 
+}
+
+.plano_fundo{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../img_desenho/3.png) no-repeat center center;
+    background-size: cover;
+}
+
+.nav h2{
+    float: right;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    margin: 20px 50px 0 0;
+}
+
+.nav ul{
+    margin-top: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-size: larger;
+    color: black;
+}
+
+.nav ul li{
+    margin: 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.assunto_1{
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 800px;
+    width: 650px;
+    border: black 3px solid;
+    float: left;
+    background-image: url(../img_desenho/metropole.gif);
+    background-size: cover;
+}
+
+.assunto_1 p{
+    padding: 30px;
+    margin: auto;
+    height: 740px;
+    width: auto;
+    background-color: rgba(255,255,255,0.4);
+    color: black;
+    line-height: 1.35;
+}
+
+.assunto_2{
+    margin-top: 20px;
+    margin-right: 200px;
+    height: 800px;
+    width: 650px;
+    border: black 3px solid;
+    float: right;
+    background-image: url(../img_desenho/metropole.gif);
+    background-size: cover;
+}
+
+.assunto_2 p{
+    padding: 30px;
+    margin: auto;
+    height: 740px;
+    width: auto;
+    background-color: rgba(255,255,255,0.4);
+    color: black;
+    line-height: 1.35;
+        
+}   
+
+.next{
+    height: 80px;
+    float: right;
+    margin-top: -600px;
+    margin-right: 25px;
+}
+.previous{
+    height: 80px;
+    float: left;
+    margin-top: -600px;
+    margin-left: 25px;
+}
+
+.bonus{
+    height: 80px;
+    float: right;
+    margin-top: -150px;
+    margin-right: 25px;
+}
+
+
+.vegetto{
+    height: 300px;
+    float: left;
+    margin-top: -940px;
+    margin-left: 90px;
+}
+
+.eren{
+    height: 250px;
+    float: left;
+    margin-top: -970px;
+    margin-left: 700px;
+}
+
+.nanachi{
+    height: 250px;
+    float: left;
+    margin-top: -625px;
+    margin-left: 100px;
+}
+
+.reg{
+    height: 220px;
+    float: left;
+    margin-top: -600px;
+    margin-left: 800px;
+}
+
+.patolino{
+    height: 210px;
+    float: left;
+    margin-top: -245px;
+    margin-left: 120px;
+}
+
+.fullmetal{
+    height: 200px;
+    float: left;
+    margin-top: -255px;
+    margin-left: 780px;
+}
+
+.guts{
+    height: 200px;
+    float: right;
+    margin-top: -960px;
+    margin-right: 780px;
+}
+
+.ichigo{
+    height: 200px;
+    float: right;
+    margin-top: -940px;
+    margin-right: 100px;
+}
+
+.jotaro{
+    height: 200px;
+    float: right;
+    margin-top: -605px;
+    margin-right: 810px;
+}
+
+.pernalonga{
+    height: 250px;
+    float: right;
+    margin-top: -605px;
+    margin-right: 100px;
+}
+
+.wargreymon{
+    height: 200px;
+    float: right;
+    margin-top: -230px;
+    margin-right: 810px;
+}
+
+.tanjiro{
+    height: 180px;
+    float: right;
+    margin-top: -225px;
+    margin-right: 130px;
+}

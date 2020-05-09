@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.header{
+    margin: 0;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(255,255,255,0.5);
+}
+ 
+.plano_fundo{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img_bonus_desenho/4.png);
+}
+
+#active{
+    color: rgb(189, 189, 189);
+    z-index: 0;
+    cursor: pointer;
+    text-shadow: 3px 3px 5px black; 
+}
+
+.nav h2{
+    float: right;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    margin: 20px 50px 0 0;
+}
+
+.nav ul{
+    margin-top: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-size: larger;
+    color: black;
+}
+
+.nav ul li{
+    margin: 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.assunto_1{
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 800px;
+    width: 1550px;
+    border: black 3px solid;
+    float: left;
+    background-image: url(../img_bonus_desenho/pesca.jpg);
+    background-size: cover;
+}
+
+.assunto_1 p{
+    padding: 60px;
+    margin: auto;
+    height: 680px;
+    width: auto;
+    background-color: rgba(255,255,255,0.4);
+    color: black;
+    line-height: 1.35;
+}
+
+.previous{
+    height: 80px;
+    float: left;
+    margin-top: -600px;
+    margin-left: 25px;
+}
+
+#tocando{
+    float: right;
+    margin-top: 15px;
+    margin-right: 130px;
+    height: 30px;
+    width: 300px;
+}
+
+.athena{
+    height: 170px;
+    float: left;
+    margin-top: -1010px;
+    margin-left: 830px;
+}
+
+.mu{
+    height: 200px;
+    float: left;
+    margin-top: -800px;
+    margin-left: 80px;
+}
+
+.aldebaran{
+    height: 200px;
+    float: left;
+    margin-top: -600px;
+    margin-left: 80px;
+}
+
+.armadura{
+    height: 200px;
+    float: left;
+    margin-top: -385px;
+    margin-left: 80px;
+}
+
+.saga{
+    height: 200px;
+    float: left;
+    margin-top: -235px;
+    margin-left: 200px;
+} 
+
+.kanon{
+    height: 200px;
+    float: left;
+    margin-top: -235px;
+    margin-left: 400px;
+}
+
+.mdm{
+    height: 200px;
+    float: left;
+    margin-top: -230px;
+    margin-left: 600px;
+}
+
+.aioria{
+    height: 200px;
+    float: right;
+    margin-top: -230px;
+    margin-right: 980px;
+}
+
+.shaka{
+    height: 200px;
+    float: right;
+    margin-top: -230px;
+    margin-right: 800px;
+}
+
+.dohko{
+    height: 200px;
+    float: right;
+    margin-top: -230px;
+    margin-right: 600px;
+}
+
+.milo{
+    height: 220px;
+    float: right;
+    margin-top: -240px;
+    margin-right: 400px;
+}
+
+.aioros{
+    height: 230px;
+    float: right;
+    margin-top: -245px;
+    margin-right: 200px;
+}
+
+.shura{
+    height: 230px;
+    float: right;
+    margin-top: -385px;
+    margin-right: 80px;
+}
+.camus{
+    height: 200px;
+    float: right;
+    margin-top: -600px;
+    margin-right: 80px;
+}
+
+.afrodite{
+    height: 200px;
+    float: right;
+    margin-top: -800px;
+    margin-right: 80px;
+}

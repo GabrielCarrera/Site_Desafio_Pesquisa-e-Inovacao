@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitologia Carreriana</title>
+    <link rel="stylesheet" href="./css/style_bonus_desenho.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img_home/almas.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="plano_fundo">
+        <div class="header">
+            <div class="nav">
+                <div>
+                    <h2 class="titulo">Mitologia Carreriana</h2>
+                </div>
+                <audio src="" controls autoplay id="tocando"></audio>
+                <ul>
+                    <li><a href="home.html">Início</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="desenho.html" id="active">Desenhos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+                <div class="assunto_1">
+                    <p>
+                        &emsp;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum deleniti cum, animi
+                        laboriosam possimus necessitatibus ea sapiente. Distinctio quasi ab dicta ut minima excepturi
+                        itaque a, vel similique quos inventore.
+                        Voluptate dolores fuga, minus magni perferendis quia accusamus odio officiis reiciendis tempore
+                        repellat voluptas ratione autem delectus porro ex inventore, sunt illo perspiciatis quidem omnis
+                        quod deserunt dolor. Voluptatum, ipsam.<br>
+                        &emsp;Veritatis, tempora blanditiis! Consectetur obcaecati id ducimus, at quis porro nostrum,
+                        quae quos cum consequuntur sint ut sapiente, error repellendus. Beatae tempora maiores fugiat
+                        repellat animi temporibus officia a. Repellendus.
+                        Sit, accusantium nihil! Maxime, deserunt autem illum error mollitia, rem ratione vero molestiae
+                        quae aliquid accusantium numquam nam facere dolorum fugit placeat doloremque laborum natus
+                        voluptatem? Tenetur veritatis natus temporibus.<br>
+                        &emsp;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum deleniti cum, animi
+                        laboriosam possimus necessitatibus ea sapiente. Distinctio quasi ab dicta ut minima excepturi
+                        itaque a, vel similique quos inventore.
+                        Voluptate dolores fuga, minus magni perferendis quia accusamus odio officiis reiciendis tempore
+                        repellat voluptas ratione autem delectus porro ex inventore, sunt illo perspiciatis quidem omnis
+                        quod deserunt dolor. Voluptatum, ipsam.<br>
+                        &emsp;Veritatis, tempora blanditiis! Consectetur obcaecati id ducimus, at quis porro nostrum,
+                        quae quos cum consequuntur sint ut sapiente, error repellendus. Beatae tempora maiores fugiat
+                        repellat animi temporibus officia a. Repellendus.
+                        Sit, accusantium nihil! Maxime, deserunt autem illum error mollitia, rem ratione vero molestiae
+                        quae aliquid accusantium numquam nam facere dolorum fugit placeat doloremque laborum natus
+                        voluptatem? Tenetur veritatis natus temporibus.<br>
+                        &emsp;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum deleniti cum, animi
+                        laboriosam possimus necessitatibus ea sapiente. Distinctio quasi ab dicta ut minima excepturi
+                        itaque a, vel similique quos inventore.
+                        Voluptate dolores fuga, minus magni perferendis quia accusamus odio officiis reiciendis tempore
+                        repellat voluptas ratione autem delectus porro ex inventore, sunt illo perspiciatis quidem omnis
+                        quod deserunt dolor. Voluptatum, ipsam.<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./img_bonus_desenho/athena.png" class="athena">
+        <img src="./img_bonus_desenho/aries.png" class="mu">
+        <img src="./img_bonus_desenho/touro.png" class="aldebaran">
+        <img src="./img_bonus_desenho/armorgemeos.png" class="armadura">
+        <img src="./img_bonus_desenho/gemeossaga.png" class="saga">
+        <img src="./img_bonus_desenho/gemeoskanon.png" class="kanon">
+        <img src="./img_bonus_desenho/cancer.png" class="mdm">
+        <img src="./img_bonus_desenho/leao.png" class="aioria">
+        <img src="./img_bonus_desenho/virgem.png" class="shaka">
+        <img src="./img_bonus_desenho/libra.png" class="dohko">
+        <img src="./img_bonus_desenho/escorpiao.png" class="milo">
+        <img src="./img_bonus_desenho/sagitario.png" class="aioros">
+        <img src="./img_bonus_desenho/capricornio.png" class="shura">
+        <img src="./img_bonus_desenho/aquario.png" class="camus">
+        <img src="./img_bonus_desenho/peixes.png" class="afrodite">
+        <a href="desenho.html"><img class="previous" src="./img_bonus_games/previous.png"></a>
+    </div>
+</body>
+
+</html>
+<script>
+    window.onload = sorteio();
+
+
+    function sorteio() {
+        var music = parseInt((Math.random() * 4) + 1);
+        tocando.src = `./img_bonus_desenho/${music}.mp3`;
+        tocando.volume = 0.10;
+    }
+</script>

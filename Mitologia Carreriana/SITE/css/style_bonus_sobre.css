@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.header{
+    margin: 0;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(255,255,255,0.5);
+}
+ 
+.plano_fundo{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../img_bonus_sobre/6.png) no-repeat center center;
+    background-size: cover;
+}
+
+ 
+#active{
+    color: rgb(189, 189, 189);
+    z-index: 0;
+    cursor: pointer;
+    text-shadow: 3px 3px 5px black; 
+}
+
+.nav h2{
+    float: right;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    margin: 20px 50px 0 0;
+}
+
+.nav ul{
+    margin-top: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-size: larger;
+    color: black;
+}
+
+.nav ul li{
+    margin: 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.assunto_1{
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 800px;
+    width: 650px;
+    border: black 3px solid;
+    float: left;
+    background-image: url(../img_bonus_sobre/floresta.png);
+    background-size: cover;
+}
+
+.assunto_1 p{
+    padding: 30px;
+    margin: auto;
+    height: 740px;
+    width: auto;
+    background-color: rgba(255,255,255,0.4);
+    color: black;
+    line-height: 1.35;
+}
+
+.assunto_2{
+    margin-top: 20px;
+    margin-right: 200px;
+    height: 800px;
+    width: 650px;
+    border: black 3px solid;
+    float: right;
+    background-image: url(../img_bonus_sobre/floresta.png);
+    background-size: cover;
+}
+
+.assunto_2 p{
+    padding: 30px;
+    margin: auto;
+    height: 740px;
+    width: auto;
+    background-color: rgba(255,255,255,0.4);
+    color: black;
+    line-height: 1.35;
+        
+}   
+
+.previous{
+    height: 80px;
+    float: left;
+    margin-top: -600px;
+    margin-left: 25px;
+}
+
+#tocando{
+    float: right;
+    margin-top: 15px;
+    margin-right: 130px;
+    height: 30px;
+    width: 300px;
+}
+.guitarra{
+    margin-left: 615px;
+    margin-top: -850px;
+    height: 115%;
+}
+
+.bola1{
+    height: 200px;
+    float: left;
+    margin-top: -200px;
+    margin-left: 80px;
+}
+
+.bola2{
+    height: 200px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 80px;
+}
+
+.ps1{
+    height: 90px;
+    float: left;
+    margin-top: -950px;
+    margin-left: 450px;
+}
+
+.nes{
+    height: 90px;
+    float: right;
+    margin-top: -950px;
+    margin-right: 430px;
+}
